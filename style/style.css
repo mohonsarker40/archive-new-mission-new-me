@@ -54,7 +54,7 @@ body {
 
 /* failure related styles */
 .failure {
-  margin: 140px 0 140px 0;
+  margin: 140px 0 135px 0;
 }
 
 .failure-container {
@@ -84,11 +84,44 @@ body {
   color: #444343;
   font-size: 16px;
   font-weight: 400;
-  
+
 }
 
-.failure-check img{
+.failure-check img {
   width: 24px;
   height: 24px;
   margin-top: 2px;
+}
+
+/* plan related style */
+.plan {
+  text-align: center;
+  margin: 0 0 135px;
+}
+
+.plan-title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 53px;
+}
+
+.plan-container {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan-column-title {
+  padding: 21px 0 16px;
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.plan-column-description {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
 }
